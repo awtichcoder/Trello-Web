@@ -20,6 +20,7 @@
 ### About Me - Thông tin về mình:
 
 Author: AwtichCoder
+
 CV: https://cv-awtichcoder.web.app
 
 “Live in a way that makes yourself proud, because in the end, the person who stays with you the longest is yourself.”
