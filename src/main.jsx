@@ -5,6 +5,7 @@ import CssBaseline from '@mui/material/CssBaseline'
 import { Experimental_CssVarsProvider as CssVarsProvider } from '@mui/material/styles' // theme provider
 import { ThemeProvider } from '@mui/material/styles'
 import theme from './Theme.js'
+import './App.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
