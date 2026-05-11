@@ -1,0 +1,7 @@
+.Mode {
+  display: flex;
+  align-items: center;
+}
+.ModeFont {
+  margin-left: 8px;
+}
