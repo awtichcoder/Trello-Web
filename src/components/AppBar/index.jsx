@@ -15,17 +15,18 @@ import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive'
 import Tooltip from '@mui/material/Tooltip'
 import HelpIcon from '@mui/icons-material/Help'
 import Profiles from './Menus/Profiles'
+import CreateNewFolderIcon from '@mui/icons-material/CreateNewFolder'
 
 function AppBar() {
   return (
     <Box
-      px={2}
       sx={{
         height: (theme) => theme.trelloCustom.appBarHeight,
         width: '100%',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
+        paddingX: 2,
         gap: 2,
         overflowX: 'auto'
       }}
@@ -56,9 +57,10 @@ function AppBar() {
           <Recent />
           <Starred />
           <Templates />
+          <Button variant="outlined" startIcon={<CreateNewFolderIcon />}>
+            Create
+          </Button>
         </Box>
-
-        <Button variant="outlined">Create</Button>
       </Box>
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
         <TextField
